@@ -1,0 +1,1679 @@
+form.city-form table tr {
+	height: 30px;
+}
+
+.blank {
+	text-align: right;
+}
+
+.common-td {
+	padding-top: 10px;
+}
+
+.common-td-30 {
+	padding-top: 30px;
+}
+
+.common-line {
+	text-align: center
+}
+
+.fileInputContainer {
+	height: 256px;
+	background: url(../images/select.png);
+	position: relative;
+	width: 256px;
+}
+
+.fileInput {
+	height: 256px;
+	overflow: hidden;
+	font-size: 300px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	opacity: 0;
+	filter: alpha(opacity = 0);
+	cursor: pointer;
+}
+
+html {
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: #ffffff;
+	background-image: none;
+	background-origin: padding-box;
+	background-position: 0 0;
+	background-repeat: repeat;
+	background-size: auto auto;
+}
+
+body {
+	-x-system-font: none;
+	color: #535252;
+	font-family: "Arial";
+	font-feature-settings: normal;
+	font-kerning: auto;
+	font-language-override: normal;
+	font-size: 12px;
+	font-size-adjust: none;
+	font-stretch: normal;
+	font-style: normal;
+	font-synthesis: weight style;
+	font-variant-alternates: normal;
+	font-variant-caps: normal;
+	font-variant-east-asian: normal;
+	font-variant-ligatures: normal;
+	font-variant-numeric: normal;
+	font-variant-position: normal;
+	font-weight: normal;
+	line-height: 1.6em;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	text-align: left;
+}
+
+ol, ul, li {
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+}
+
+input, select, form, button {
+	vertical-align: middle;
+}
+
+input {
+	height: 20px;
+	line-height: 20px;
+}
+
+button {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-bottom-color: -moz-use-text-color;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-image-outset: 0 0 0 0;
+	border-image-repeat: stretch stretch;
+	border-image-slice: 100% 100% 100% 100%;
+	border-image-source: none;
+	border-image-width: 1 1 1 1;
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	border-left-color-value: -moz-use-text-color;
+	border-left-style-ltr-source: physical;
+	border-left-style-rtl-source: physical;
+	border-left-style-value: none;
+	border-left-width-ltr-source: physical;
+	border-left-width-rtl-source: physical;
+	border-left-width-value: 0;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: -moz-use-text-color;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: none;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 0;
+	border-top-color: -moz-use-text-color;
+	border-top-style: none;
+	border-top-width: 0;
+	cursor: pointer;
+}
+
+img {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-bottom-color: -moz-use-text-color;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-image-outset: 0 0 0 0;
+	border-image-repeat: stretch stretch;
+	border-image-slice: 100% 100% 100% 100%;
+	border-image-source: none;
+	border-image-width: 1 1 1 1;
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	border-left-color-value: -moz-use-text-color;
+	border-left-style-ltr-source: physical;
+	border-left-style-rtl-source: physical;
+	border-left-style-value: none;
+	border-left-width-ltr-source: physical;
+	border-left-width-rtl-source: physical;
+	border-left-width-value: 0;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: -moz-use-text-color;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: none;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 0;
+	border-top-color: -moz-use-text-color;
+	border-top-style: none;
+	border-top-width: 0;
+}
+
+em {
+	font-style: normal;
+}
+
+TD {
+	color: #535252;
+	font-size: 12px;
+	line-height: 150%;
+}
+
+TD input {
+	display: inline;
+	margin-left: 5px;
+}
+
+TH {
+	font-size: 12px;
+}
+
+A {
+	-moz-text-decoration-color: -moz-use-text-color;
+	-moz-text-decoration-line: none;
+	-moz-text-decoration-style: solid;
+	color: #535252;
+}
+
+A:hover {
+	-moz-text-decoration-color: -moz-use-text-color;
+	-moz-text-decoration-line: underline;
+	-moz-text-decoration-style: solid;
+	color: #d54404;
+}
+
+.adm_w {
+	-moz-text-decoration-color: -moz-use-text-color;
+	-moz-text-decoration-line: underline;
+	-moz-text-decoration-style: solid;
+	color: #ffffff;
+}
+
+.adm_en {
+	font-size: 10px;
+}
+
+.adm_red {
+	color: #ff0000;
+}
+
+.hiddenbody {
+	background-image: url("http://images.hzins.com/web/admin_7.gif");
+	background-repeat: repeat-y;
+	cursor: pointer;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	text-align: center;
+}
+
+.menucss {
+	-moz-text-decoration-color: -moz-use-text-color;
+	-moz-text-decoration-line: none;
+	-moz-text-decoration-style: solid;
+	color: #3e3e3e;
+	cursor: pointer;
+	font-size: 8pt;
+	height: 1000px;
+	line-height: 500px;
+}
+
+.leftbody {
+	background-color: #e5ecf6;
+	height: 1000px;
+	overflow-x: hidden;
+}
+
+.left_1 {
+	padding-bottom: 10px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 7px;
+}
+
+.left_2 {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background-color: #ffffff;
+	border-bottom-color: #92b6e6;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-image-outset: 0 0 0 0;
+	border-image-repeat: stretch stretch;
+	border-image-slice: 100% 100% 100% 100%;
+	border-image-source: none;
+	border-image-width: 1 1 1 1;
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	border-left-color-value: #92b6e6;
+	border-left-style-ltr-source: physical;
+	border-left-style-rtl-source: physical;
+	border-left-style-value: solid;
+	border-left-width-ltr-source: physical;
+	border-left-width-rtl-source: physical;
+	border-left-width-value: 1px;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #92b6e6;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	border-top-color: -moz-use-text-color;
+	border-top-style: none;
+	border-top-width: medium;
+	padding-bottom: 9px;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-top: 9px;
+}
+
+.left_3 {
+	background-image: url("http://images.hzins.com/web/admin_8.gif");
+	color: #6a87b0;
+	cursor: pointer;
+	font-weight: bold;
+	height: 41px;
+	line-height: 15px;
+	margin-bottom: 1px;
+	margin-left: 7px;
+	padding-top: 6px;
+	text-align: center;
+	width: 25px;
+}
+
+.left_4 {
+	background-image: url("http://images.hzins.com/web/admin_9.gif");
+	color: #ffffff;
+	cursor: pointer;
+	font-weight: bold;
+	height: 41px;
+	line-height: 15px;
+	margin-bottom: 1px;
+	margin-left: 4px;
+	padding-top: 6px;
+	text-align: center;
+	width: 28px;
+}
+
+.left_5 {
+	background-color: #e5ecf6;
+	border-bottom-color: #bec4cd;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	height: 18px;
+	line-height: 18px;
+	padding-top: 2px;
+	text-align: center;
+}
+
+.left_6 {
+	line-height: 16px;
+	padding-bottom: 10px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.mainbody {
+	background-attachment: fixed;
+	background-image: url("http://images.hzins.com/web/admin_10.gif");
+	background-position: center bottom;
+	background-repeat: repeat-x;
+	height: 1000px;
+	overflow-x: hidden;
+}
+
+.adm_1 {
+	background-image: url("http://images.hzins.com/web/admin_1.gif");
+	background-repeat: repeat-x;
+	height: 67px;
+}
+
+.adm_2 {
+	padding-left: 20px;
+}
+
+.adm_3 {
+	background-image: url("http://images.hzins.com/web/admin_2.gif");
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+
+.adm_4 {
+	background-image: url("http://images.hzins.com/web/admin_3.gif");
+	background-repeat: repeat-x;
+	height: 9px;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	width: 100%;
+}
+
+.adm_5 {
+	color: #ffffff;
+	font-size: 12px;
+	margin-bottom: 6px;
+	padding-right: 61px;
+	text-align: right;
+}
+
+.adm_6 {
+	color: #ffffff;
+	font-size: 12px;
+	padding-right: 115px;
+	text-align: right;
+}
+
+.adm_7 {
+	-moz-text-decoration-color: -moz-use-text-color;
+	-moz-text-decoration-line: underline;
+	-moz-text-decoration-style: solid;
+	color: #ff9000;
+	font-weight: bold;
+}
+
+.adm_8 {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background-color: #ffffff;
+	border-bottom-color: #92b6e6;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-image-outset: 0 0 0 0;
+	border-image-repeat: stretch stretch;
+	border-image-slice: 100% 100% 100% 100%;
+	border-image-source: none;
+	border-image-width: 1 1 1 1;
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	border-left-color-value: #92b6e6;
+	border-left-style-ltr-source: physical;
+	border-left-style-rtl-source: physical;
+	border-left-style-value: solid;
+	border-left-width-ltr-source: physical;
+	border-left-width-rtl-source: physical;
+	border-left-width-value: 1px;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #92b6e6;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	border-top-color: #92b6e6;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+
+.adm_9 {
+	background-color: #e5edf8;
+	border-bottom-color: #ffffff;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-top-color: #ffffff;
+	border-top-style: solid;
+	border-top-width: 1px;
+	padding-left: 16px;
+}
+
+.adm_10 {
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 0;
+	padding-top: 20px;
+}
+
+.adm_11 {
+	border-top-color: #92b6e6;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+
+.adm_12 {
+	color: #2c8604;
+}
+
+.adm_13 {
+	margin-bottom: 10px;
+}
+
+.adm_14 {
+	line-height: 24px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+.adm_15 {
+	color: #813500;
+}
+
+.adm_16 {
+	color: #045a86;
+}
+
+.adm_17 {
+	color: #81006d;
+}
+
+.adm_18 {
+	line-height: 16px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+.adm_19 {
+	background-image: url("http://images.hzins.com/web/admin_12.gif");
+	color: #205092;
+	height: 31px;
+	padding-left: 16px;
+}
+
+.adm_20 {
+	padding-bottom: 18px;
+	padding-left: 16px;
+	padding-right: 0;
+	padding-top: 9px;
+}
+
+.adm_21 {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-bottom-color: #9d9b9b;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-image-outset: 0 0 0 0;
+	border-image-repeat: stretch stretch;
+	border-image-slice: 100% 100% 100% 100%;
+	border-image-source: none;
+	border-image-width: 1 1 1 1;
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	border-left-color-value: #9d9b9b;
+	border-left-style-ltr-source: physical;
+	border-left-style-rtl-source: physical;
+	border-left-style-value: solid;
+	border-left-width-ltr-source: physical;
+	border-left-width-rtl-source: physical;
+	border-left-width-value: 1px;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #9d9b9b;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	border-top-color: #9d9b9b;
+	border-top-style: solid;
+	border-top-width: 1px;
+	font-size: 12px;
+}
+
+.adm_22 {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: url("http://images.hzins.com/web/admin_14_1.gif");
+	background-origin: padding-box;
+	background-position: 0 0;
+	background-repeat: repeat;
+	background-size: auto auto;
+	border-bottom-color: #92b6e6;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-image-outset: 0 0 0 0;
+	border-image-repeat: stretch stretch;
+	border-image-slice: 100% 100% 100% 100%;
+	border-image-source: none;
+	border-image-width: 1 1 1 1;
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	border-left-color-value: #92b6e6;
+	border-left-style-ltr-source: physical;
+	border-left-style-rtl-source: physical;
+	border-left-style-value: solid;
+	border-left-width-ltr-source: physical;
+	border-left-width-rtl-source: physical;
+	border-left-width-value: 1px;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #92b6e6;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	border-top-color: #92b6e6;
+	border-top-style: solid;
+	border-top-width: 1px;
+	color: #205092;
+	cursor: pointer;
+	font-size: 12px;
+	height: 23px;
+	line-height: 21px;
+}
+
+.adm_23 {
+	padding-right: 16px;
+}
+
+.adm_24 {
+	padding-left: 16px;
+}
+
+.adm_25 {
+	color: #205092;
+}
+
+.adm_26 {
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: url("http://images.hzins.com/web/alibyt_50.gif");
+	background-origin: padding-box;
+	background-position: 0 0;
+	background-repeat: repeat;
+	background-size: auto auto;
+	border-bottom-color: #d8d8d8;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #d8d8d8;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	color: #434343;
+	height: 23px;
+	text-align: center;
+}
+
+.adm_27 {
+	border-bottom-color: #d8d8d8;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #d8d8d8;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	height: 24px;
+	padding-bottom: 0;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0;
+	text-align: center;
+}
+
+.adm_28 {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background-image: url("http://images.hzins.com/web/admin_15.gif");
+	background-repeat: repeat-x;
+	border-bottom-color: #b0c0d7;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-image-outset: 0 0 0 0;
+	border-image-repeat: stretch stretch;
+	border-image-slice: 100% 100% 100% 100%;
+	border-image-source: none;
+	border-image-width: 1 1 1 1;
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	border-left-color-value: #b0c0d7;
+	border-left-style-ltr-source: physical;
+	border-left-style-rtl-source: physical;
+	border-left-style-value: solid;
+	border-left-width-ltr-source: physical;
+	border-left-width-rtl-source: physical;
+	border-left-width-value: 1px;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #b0c0d7;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	border-top-color: #b0c0d7;
+	border-top-style: solid;
+	border-top-width: 1px;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	padding-top: 2px;
+	width: 72px;
+}
+
+.adm_29 {
+	cursor: pointer;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+}
+
+.adm_30 {
+	background-color: #204f93;
+	color: #ffffff;
+	cursor: pointer;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+}
+
+.adm_31 {
+	color: #afafaf;
+}
+
+.adm_32 {
+	line-height: 15px;
+}
+
+.adm_33 {
+	line-height: 12px;
+}
+
+.adm_34 {
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: url("http://images.hzins.com/web/alibyt_50.gif");
+	background-origin: padding-box;
+	background-position: 0 0;
+	background-repeat: repeat;
+	background-size: auto auto;
+	border-bottom-color: #d8d8d8;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #d8d8d8;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	color: #434343;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+}
+
+.adm_35 {
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: url("http://images.hzins.com/web/admin_16_1.gif");
+	background-origin: padding-box;
+	background-position: 0 0;
+	background-repeat: repeat;
+	background-size: auto auto;
+	border-bottom-color: #d8d8d8;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #d8d8d8;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	color: #434343;
+	text-align: center;
+}
+
+.adm_36 {
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: url("http://images.hzins.com/web/alibyt_50_1.gif");
+	background-origin: padding-box;
+	background-position: 0 0;
+	background-repeat: repeat;
+	background-size: auto auto;
+	border-bottom-color: #d8d8d8;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	color: #204f93;
+	font-weight: bold;
+	height: 30px;
+	padding-left: 16px;
+}
+
+.adm_37 {
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: url("http://images.hzins.com/web/alibyt_50_1.gif");
+	background-origin: padding-box;
+	background-position: 0 0;
+	background-repeat: repeat;
+	background-size: auto auto;
+	border-bottom-color: #d8d8d8;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #d8d8d8;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	color: #204f93;
+	height: 30px;
+	padding-right: 16px;
+	text-align: right;
+}
+
+.adm_38 {
+	border-bottom-color: #d8d8d8;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #d8d8d8;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	padding-right: 10px;
+	text-align: right;
+}
+
+.adm_39 {
+	border-bottom-color: #d8d8d8;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding-left: 16px;
+}
+
+.adm_40 {
+	border-bottom-color: #d8d8d8;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #d8d8d8;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	text-align: center;
+}
+
+.adm_41 {
+	border-bottom-color: #d8d8d8;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	text-align: center;
+}
+
+.adm_42 {
+	border-bottom-color: #d8d8d8;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #d8d8d8;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	text-align: center;
+}
+
+.adm_42_c {
+	border-bottom-color: #d8d8d8;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #d8d8d8;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	text-align: center;
+}
+
+.adm_43 {
+	border-bottom-color: #d8d8d8;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding-bottom: 10px;
+	padding-left: 16px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+.adm_44 {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: url("http://images.hzins.com/web/admin_17.gif");
+	background-origin: padding-box;
+	background-position: 0 0;
+	background-repeat: repeat;
+	background-size: auto auto;
+	border-bottom-color: #92b6e6;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-image-outset: 0 0 0 0;
+	border-image-repeat: stretch stretch;
+	border-image-slice: 100% 100% 100% 100%;
+	border-image-source: none;
+	border-image-width: 1 1 1 1;
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	border-left-color-value: #92b6e6;
+	border-left-style-ltr-source: physical;
+	border-left-style-rtl-source: physical;
+	border-left-style-value: solid;
+	border-left-width-ltr-source: physical;
+	border-left-width-rtl-source: physical;
+	border-left-width-value: 1px;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #92b6e6;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	border-top-color: #92b6e6;
+	border-top-style: solid;
+	border-top-width: 1px;
+	color: #205092;
+	cursor: pointer;
+	font-size: 12px;
+	height: 35px;
+	line-height: 33px;
+}
+
+.adm_45 {
+	background-color: #f3fbfe;
+	border-bottom-color: #d8d8d8;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #d8d8d8;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	padding-left: 16px;
+	height:25px;
+}
+
+.adm_45_c {
+	background-color: #f3fbfe;
+	border-bottom-color: #d8d8d8;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #d8d8d8;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	text-align: center;
+}
+
+.adm_46 {
+	-moz-text-decoration-color: -moz-use-text-color;
+	-moz-text-decoration-line: underline;
+	-moz-text-decoration-style: solid;
+	color: #535252;
+}
+
+.adm_47 {
+	-moz-text-decoration-color: -moz-use-text-color;
+	-moz-text-decoration-line: underline;
+	-moz-text-decoration-style: solid;
+	color: #fc4107;
+}
+
+.adm_48 {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgba(0, 0, 0, 0);
+	background-image:
+		url("http://images.hzins.com/web/userlogin_submit.gif");
+	background-origin: padding-box;
+	background-position: 0 0;
+	background-repeat: repeat;
+	background-size: auto auto;
+	border-bottom-color: #d4b06a;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-image-outset: 0 0 0 0;
+	border-image-repeat: stretch stretch;
+	border-image-slice: 100% 100% 100% 100%;
+	border-image-source: none;
+	border-image-width: 1 1 1 1;
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	border-left-color-value: #d4b06a;
+	border-left-style-ltr-source: physical;
+	border-left-style-rtl-source: physical;
+	border-left-style-value: solid;
+	border-left-width-ltr-source: physical;
+	border-left-width-rtl-source: physical;
+	border-left-width-value: 1px;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #d4b06a;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	border-top-color: #d4b06a;
+	border-top-style: solid;
+	border-top-width: 1px;
+	color: #753d00;
+	cursor: pointer;
+	font-size: 12px;
+	height: 23px;
+	line-height: 21px;
+}
+
+.adm_49 {
+	-moz-text-decoration-color: -moz-use-text-color;
+	-moz-text-decoration-line: underline;
+	-moz-text-decoration-style: solid;
+}
+
+.adm_50 {
+	background-image: url("http://images.hzins.com/web/s825_1.gif");
+	height: 79px;
+}
+
+.adm_51 {
+	background-image: url("http://images.hzins.com/web/s825_2.gif");
+	height: 50px;
+}
+
+.adm_52 {
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #e2e3ec;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	float: left;
+	height: 32px;
+	margin-bottom: 1px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 1px;
+	width: 50px;
+}
+
+.adm_53 {
+	background-image: url("http://images.hzins.com/web/s827_2.gif");
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	border-left-color-value: #ffffff;
+	border-left-style-ltr-source: physical;
+	border-left-style-rtl-source: physical;
+	border-left-style-value: solid;
+	border-left-width-ltr-source: physical;
+	border-left-width-rtl-source: physical;
+	border-left-width-value: 1px;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #e2e3ec;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	color: #545351;
+	cursor: pointer;
+	float: left;
+	height: 32px;
+	line-height: 32px;
+	margin-bottom: 1px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 1px;
+	text-align: center;
+	width: 85px;
+}
+
+.adm_53 a {
+	color: #545351;
+}
+
+.adm_53 a:hover {
+	-moz-text-decoration-color: -moz-use-text-color;
+	-moz-text-decoration-line: none;
+	-moz-text-decoration-style: solid;
+	color: #1e4c03;
+}
+
+.adm_54 {
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	border-left-color-value: #ffffff;
+	border-left-style-ltr-source: physical;
+	border-left-style-rtl-source: physical;
+	border-left-style-value: solid;
+	border-left-width-ltr-source: physical;
+	border-left-width-rtl-source: physical;
+	border-left-width-value: 1px;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #ddeede;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	cursor: pointer;
+	float: left;
+	height: 32px;
+	line-height: 32px;
+	margin-bottom: 1px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 1px;
+	text-align: center;
+	width: 85px;
+}
+
+.adm_54 a {
+	color: #545351;
+}
+
+.adm_54 a:hover {
+	-moz-text-decoration-color: -moz-use-text-color;
+	-moz-text-decoration-line: none;
+	-moz-text-decoration-style: solid;
+	color: #1e4c03;
+}
+
+.adm_55 {
+	padding-left: 50px;
+	width: 238px;
+}
+
+.adm_56 {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-bottom-color: #eaeae8;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-image-outset: 0 0 0 0;
+	border-image-repeat: stretch stretch;
+	border-image-slice: 100% 100% 100% 100%;
+	border-image-source: none;
+	border-image-width: 1 1 1 1;
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	border-left-color-value: #eaeae8;
+	border-left-style-ltr-source: physical;
+	border-left-style-rtl-source: physical;
+	border-left-style-value: solid;
+	border-left-width-ltr-source: physical;
+	border-left-width-rtl-source: physical;
+	border-left-width-value: 1px;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #eaeae8;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	border-top-color: #eaeae8;
+	border-top-style: solid;
+	border-top-width: 1px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+.adm_57 {
+	float: left;
+	width: 218px;
+}
+
+.adm_57 ul {
+	float: left;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin-bottom: 5px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	width: 218px;
+}
+
+.adm_57 ul li {
+	float: left;
+	margin-bottom: 8px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 218px;
+}
+
+.adm_58 {
+	padding-bottom: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 0;
+}
+
+.adm_59 {
+	height: 24px;
+	padding-bottom: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0;
+}
+
+.adm_60 {
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: #f3fbfe;
+	background-image: none;
+	background-origin: padding-box;
+	background-position: 0 0;
+	background-repeat: repeat;
+	background-size: auto auto;
+	border-bottom-color: #d8d8d8;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #d8d8d8;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	color: #434343;
+	text-align: center;
+}
+
+.adm_61 {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: url("http://images.hzins.com/web/admin_16.gif");
+	background-origin: padding-box;
+	background-position: 0 0;
+	background-repeat: repeat;
+	background-size: auto auto;
+	border-bottom-color: #d8d8d8;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-image-outset: 0 0 0 0;
+	border-image-repeat: stretch stretch;
+	border-image-slice: 100% 100% 100% 100%;
+	border-image-source: none;
+	border-image-width: 1 1 1 1;
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	border-left-color-value: #d8d8d8;
+	border-left-style-ltr-source: physical;
+	border-left-style-rtl-source: physical;
+	border-left-style-value: solid;
+	border-left-width-ltr-source: physical;
+	border-left-width-rtl-source: physical;
+	border-left-width-value: 1px;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #d8d8d8;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	border-top-color: #d8d8d8;
+	border-top-style: solid;
+	border-top-width: 1px;
+	color: #434343;
+	text-align: center;
+}
+
+.adm_62 {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: url("http://images.hzins.com/web/admin_16.gif");
+	background-origin: padding-box;
+	background-position: 0 0;
+	background-repeat: repeat;
+	background-size: auto auto;
+	border-bottom-color: #d8d8d8;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-image-outset: 0 0 0 0;
+	border-image-repeat: stretch stretch;
+	border-image-slice: 100% 100% 100% 100%;
+	border-image-source: none;
+	border-image-width: 1 1 1 1;
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	border-left-color-value: -moz-use-text-color;
+	border-left-style-ltr-source: physical;
+	border-left-style-rtl-source: physical;
+	border-left-style-value: none;
+	border-left-width-ltr-source: physical;
+	border-left-width-rtl-source: physical;
+	border-left-width-value: medium;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #d8d8d8;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	border-top-color: #d8d8d8;
+	border-top-style: solid;
+	border-top-width: 1px;
+	color: #434343;
+	text-align: center;
+}
+
+.adm_63 {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-bottom-color: #d8d8d8;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-image-outset: 0 0 0 0;
+	border-image-repeat: stretch stretch;
+	border-image-slice: 100% 100% 100% 100%;
+	border-image-source: none;
+	border-image-width: 1 1 1 1;
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	border-left-color-value: #d8d8d8;
+	border-left-style-ltr-source: physical;
+	border-left-style-rtl-source: physical;
+	border-left-style-value: solid;
+	border-left-width-ltr-source: physical;
+	border-left-width-rtl-source: physical;
+	border-left-width-value: 1px;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #d8d8d8;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	border-top-color: -moz-use-text-color;
+	border-top-style: none;
+	border-top-width: medium;
+	height: 24px;
+	text-align: center;
+}
+
+.adm_64 {
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+.adm_65 {
+	background-image: url("http://images.hzins.com/web/alibyt_41.gif");
+	color: #006898;
+	cursor: pointer;
+	float: left;
+	font-weight: bold;
+	height: 27px;
+	line-height: 27px;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 5px;
+	margin-top: 7px;
+	text-align: center;
+	width: 88px;
+}
+
+.adm_66 {
+	background-image: url("http://images.hzins.com/web/alibyt_42_1.gif");
+	color: #006898;
+	cursor: pointer;
+	float: left;
+	height: 27px;
+	line-height: 27px;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 5px;
+	margin-top: 7px;
+	text-align: center;
+	width: 88px;
+}
+
+.adm_67 {
+	padding-left: 20px;
+}
+
+.adm_68 {
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: url("http://images.hzins.com/web/alibyt_50_1.gif");
+	background-origin: padding-box;
+	background-position: 0 0;
+	background-repeat: repeat;
+	background-size: auto auto;
+	border-bottom-color: #d8d8d8;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	color: #888;
+	font-weight: bold;
+	height: 30px;
+	padding-left: 16px;
+}
+
+.adm_69 {
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	text-align: right;
+}
+
+.adm_70 {
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+.adm_71 {
+	background-color: #f3fbfe;
+	border-bottom-color: #d8d8d8;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #d8d8d8;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	padding-left: 5px;
+}
+
+.adm_71_c {
+	background-color: #f3fbfe;
+	border-bottom-color: #d8d8d8;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #d8d8d8;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	padding-left: 5px;
+	text-align: center;
+}
+
+.adm_72 {
+	text-align: center;
+}
+
+.adm_73 {
+	border-top-color: #d8d8d8;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+
+.adm_74 {
+	margin-top: 10px;
+}
+
+.adm_75 {
+	color: #888;
+	padding-left: 16px;
+}
+
+.adm_76 {
+	-moz-text-decoration-color: -moz-use-text-color;
+	-moz-text-decoration-line: underline;
+	-moz-text-decoration-style: solid;
+	color: #535252;
+	font-weight: normal;
+	padding-right: 10px;
+}
+
+.adm_77 {
+	border-bottom-color: #d8d8d8;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #d8d8d8;
+	border-right-style-ltr-source: physical;
+	border-right-style-rtl-source: physical;
+	border-right-style-value: solid;
+	border-right-width-ltr-source: physical;
+	border-right-width-rtl-source: physical;
+	border-right-width-value: 1px;
+	text-align: center;
+}
+
+.adm_78 {
+	margin-top: 20px;
+}
+
+.categorymaster {
+	float: right;
+	width: 290px;
+}
+
+.categorymaster b {
+	margin-left: 16px;
+}
+
+.selectButton{
+	margin-left:10px;
+	display: inline-block;
+	text-align:center;
+	width:80px;
+	height:24px;
+	line-height:24px;
+	border-radius:2px;
+	border:1px solid #A7BAC5;
+	background-color:#fff;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.pictureDiv{
+	width:160px;
+	height:160px;
+	border:1px solid #D7D7D7;
+	text-align:center;
+	margin-top:5px;
+}
+
+.confirmDiv1{
+	margin:0px auto;
+	width:320px;
+	text-align:center;
+}
+
+.confirmDiv2{
+	margin:0px auto;
+	text-align:center;
+	padding-bottom: 20px;
+}
+
+.btn_list_red{
+	height: 28px;
+	line-height: 26px;
+	padding-left: 20px;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 14px;
+	border: 1px solid #F5D0B4;
+	border-radius: 3px;
+	color: #D30000;
+	background: #FFFAED;
+	font-weight: 700;	
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor:pointer;
+	
+}
+.btn_list_gray{
+	height: 28px;
+	color: #585858;
+	line-height: 26px;
+	padding-left: 20px;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 14px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	background: #F0F0F0;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor:pointer;
+	
+	}
+	
+.itemSelectedColor{
+   background-color:rgb(255, 228, 141);
+ }
+ 
+ .divItem{
+ 	border-bottom:1px solid #95B8E7;
+ 	text-align:center;
+ 	cursor:pointer;
+ 	height:25px;
+ 	line-height:25px;
+ }	
