@@ -9,7 +9,7 @@ import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.mycompany.myapp.controller.LoginController;
-
+//拦截器用于处理登陆及用户权限验证
 public class PermissionInterceptor implements HandlerInterceptor {
 
 	private static final Logger logger = LoggerFactory.getLogger(PermissionInterceptor.class);

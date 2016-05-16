@@ -18,6 +18,7 @@ import com.mycompany.myapp.api.user.UserFacade;
 import com.mycompany.myapp.entity.domain.user.User;
 import com.mycompany.myapp.utils.JsonUtils;
 
+//用户登陆，验证，注销控制类
 
 @Controller
 @RequestMapping(value = "/op/user")

@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.mycompany.myapp.api.user.UserFacade;
 import com.mycompany.myapp.entity.domain.user.User;
-
+//用户登陆处理
 @Controller
 public class LoginController {
 	private static final Logger logger = LoggerFactory

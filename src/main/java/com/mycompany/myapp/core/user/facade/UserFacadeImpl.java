@@ -10,6 +10,7 @@ import com.mycompany.myapp.api.user.UserFacade;
 import com.mycompany.myapp.core.user.service.UserService;
 import com.mycompany.myapp.entity.domain.user.User;
 
+//接口层，在同一个模块内引用service处理业务，跨目录（模块）择要引用facade
 @Component
 public class UserFacadeImpl implements UserFacade {
 	private static final Logger logger = LoggerFactory.getLogger(UserFacadeImpl.class);

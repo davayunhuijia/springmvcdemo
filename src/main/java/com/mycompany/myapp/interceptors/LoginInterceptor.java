@@ -6,6 +6,9 @@ import javax.servlet.http.HttpServletResponse;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
+
+//拦截器用于处理登陆及用户权限验证
+
 public class LoginInterceptor  implements HandlerInterceptor {
 
 
