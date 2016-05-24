@@ -12,7 +12,12 @@ public interface UserFacade  {
      * @param  
      * @return
      */
-    public User selectById(int id);
 
-
+    public User findById(int id);
+	
+	
+	public int updateUser(User user);
+	
+	
+	public int insertUser(User user);
 }

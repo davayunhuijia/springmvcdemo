@@ -4,21 +4,41 @@
 	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:context="http://www.springframework.org/schema/context"
 	xmlns:aop="http://www.springframework.org/schema/aop"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd 
-	http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd 
+	http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.2.xsd 
 	http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee.xsd 
-	 http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
-	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+	 http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.2.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+
 
 	<context:annotation-config />
 	<!-- <cache:annotation-driven /> -->
-	<context:component-scan base-package="com.mycompany.myapp.core">
-	</context:component-scan> 
+	<context:component-scan base-package="com.mycompany.myapp.core"></context:component-scan>
 	
 	<context:property-placeholder location="classpath:*.properties" file-encoding="UTF-8" ignore-unresolvable="true" />
+	
+	
 	
 	
 	<import resource="classpath:spring-mvc.xml" />
 	<import resource="classpath:servlet-context.xml" />
 	<import resource="classpath:datasource.xml" />
+	
+	
+	<!-- 激活自动代理功能 -->
+	<aop:aspectj-autoproxy proxy-target-class="true" /> 
+
+	<!-- 扫描切面包路径 -->
+	<bean id="logAspect" class="com.mycompany.myapp.aop.LogAspect">
+		<property name="logPoint">
+			<bean class="com.mycompany.myapp.aop.SysLogFacadeImpl" />
+		</property>
+	</bean>
+     
+     <aop:config>
+		<aop:aspect ref="logAspect">
+			<aop:pointcut id="logPointCut" expression="@annotation(com.mycompany.myapp.annotation.Log)" />
+			<aop:around pointcut-ref="logPointCut" method="saveLog" />
+		</aop:aspect>
+	</aop:config>
 	
 </beans>

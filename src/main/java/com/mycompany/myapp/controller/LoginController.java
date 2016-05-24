@@ -1,5 +1,6 @@
 package com.mycompany.myapp.controller;
 
+import java.util.Date;
 import java.util.Locale;
 
 import javax.annotation.Resource;
@@ -16,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.mycompany.myapp.annotation.Log;
 import com.mycompany.myapp.api.user.UserFacade;
 import com.mycompany.myapp.entity.domain.user.User;
 //用户登陆处理
@@ -31,11 +33,13 @@ public class LoginController {
 	 * Simply selects the home view to render by returning its name.
 	 */
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
+	@Log(value="aaa")
 	public String login(HttpServletRequest request,
 			HttpServletResponse response, Locale locale, Model model) {
 		logger.info("Welcome login {}.", locale);
-		User u = userFacade.selectById(1);
-
+		User u = userFacade.findById(1);
+		u.setCreateTime(new Date());
+		userFacade.updateUser(u);
 		HttpSession session = request.getSession();
 		System.out.println("JSESSIONID:" + session.getAttribute("jessionid")
 				+ "," + request.getAttributeNames().toString());

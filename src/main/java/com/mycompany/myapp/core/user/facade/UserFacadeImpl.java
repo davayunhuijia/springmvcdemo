@@ -11,6 +11,7 @@ import com.mycompany.myapp.core.user.service.UserService;
 import com.mycompany.myapp.entity.domain.user.User;
 
 //接口层，在同一个模块内引用service处理业务，跨目录（模块）择要引用facade
+
 @Component
 public class UserFacadeImpl implements UserFacade {
 	private static final Logger logger = LoggerFactory.getLogger(UserFacadeImpl.class);
@@ -20,9 +21,21 @@ public class UserFacadeImpl implements UserFacade {
     private UserService userService;
     
 	@Override
-    public User selectById(int id){
+    public User findById(int id){
 		logger.info("selectById");
-		return userService.selectById(id);
+		return userService.findById(id);
+	}
+	
+	@Override
+	public int updateUser(User user){
+		logger.info("updateUser");
+		return userService.updatetUser(user);
+	}
+	
+	@Override
+	public int insertUser(User user){
+		logger.info("updateUser");
+		return userService.insertUser(user);
 	}
 
 

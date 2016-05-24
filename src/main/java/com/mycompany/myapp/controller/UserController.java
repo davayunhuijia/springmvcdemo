@@ -34,7 +34,7 @@ public class UserController {
 	@RequestMapping(value = "/query", method = RequestMethod.GET)
 	public String query(Locale locale, Model model) {
 		logger.info("query {}.", locale);
-		User u = userFacade.selectById(1);
+		User u = userFacade.findById(1);
 		
 		model.addAttribute("username", "张三" +u.getName()+u.getPassword()+JsonUtils.beanToJson(u));
 		

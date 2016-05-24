@@ -10,15 +10,40 @@
     <result column="update_time"   property="updateTime" />
   </resultMap>
   
- <sql id="Base_Column_List">
-    id, name, password, create_time, update_time
-  </sql>
+	<sql id="Base_Column_List">
+   	 id, name, password, create_time, update_time
+  	</sql>
   
-  <select id="selectById" parameterType="java.lang.Integer" resultMap="BaseResultMap">
-    select 
-    <include refid="Base_Column_List" />
-    from t_user
-    where id = #{id,jdbcType=INTEGER}
-  </select>
+  	<select id="findById" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    	select 
+   		<include refid="Base_Column_List" />
+    	from t_user
+    		where id = #{id,jdbcType=INTEGER}
+  	</select>
+  
+  	<insert id="insertUser"   parameterType="com.mycompany.myapp.entity.domain.user.User">
+		INSERT INTO
+		t_user(id, name, passwor) VALUES(#{id}, #{name}, #{password})
+  </insert>
+ 
+  
+	<update id="updateUser" parameterType="com.mycompany.myapp.entity.domain.user.User">
+		UPDATE t_user
+		<set>
+			<if test="name != null">
+				name = #{name} ,
+			</if>
+			<if test="password != null">
+				password = #{password} ,
+			</if>
+			<if test="createTime != null">
+				create_time = #{createTime} ,
+			</if>
+			<if test="updateTime != null">
+				update_time = #{updateTime} ,
+			</if>
+		</set>
+		WHERE id=#{id}
+	</update>
 
 </mapper>

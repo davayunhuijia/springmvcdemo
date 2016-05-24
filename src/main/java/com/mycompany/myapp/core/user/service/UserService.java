@@ -13,7 +13,17 @@ public class UserService {
 	@Resource
 	private UserMapper userMapper;
 	   
-	public User selectById(int id){
-		return userMapper.selectById(id);
+	public User findById(int id){
+		return userMapper.findById(id);
+	}
+	
+	public int insertUser(User u){
+		return userMapper.insertUser(u);
+		
+	}
+	
+	public int updatetUser(User u){
+		return userMapper.updateUser(u);
+		
 	}
 }
